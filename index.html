@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>My First Website</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav__logo">
+            <a href="#home" class="nav__logo-link">Vduyy</a>
+        </div>
+        <ul class="nav__list">
+            <li class="nav__item"><a href="./index.html" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="./about.html" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="./project.html" class="nav__link">Projects</a></li>
+            <li class="nav__item"><a href="./contact.html" class="nav__link">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="header" data-aos="animate__slideInLeft">
+        <h1>Bonjour, je suis Vinh Duy.</h1>
+        <h1>From UET - VietNam National University - Ha Noi</h1>    
+    </div>    
+    <div class="information" data-aos="animate__fadeInUp">
+        <div class="content">
+            <p>Hallo, mein Name ist Vinh Duy. Ich bin in Hanoi geboren und aufgewachsen. Ich studiere und arbeite derzeit an der Vietnam National University. Meine Lieblingsstudienfächer sind Sprachen und Jura. In meiner Freizeit übe ich mich normalerweise im Programmieren, lese Bücher und treibe Sport.
+            </p>
+        </div>
+        <div class="avatar">
+            <img src="./image/avatar.png" alt="Avatar của viing3107 sẽ để ở đây" loading="lazy">
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            useClassNames: true,
+            initClassName: false,
+            animatedClassName: 'animate__animated',
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Patrick+Hand&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    user-select: none;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Inter, monospace;
+}
+
+body {
+    background: url(./image/gauze-01.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 100vh;
+}
+
+nav {
+    height: 40px;
+    background-color: rgba(83, 83, 83, 0.3);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a {
+    font-size: 2rem;
+    font-family: Poppins, Jetbrains Mono;
+    color: #c9c9c9;
+}
+
+a:hover {
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+a::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+a:hover::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+
+.nav__list {
+    width: 60rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-family: Concert One, sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgb(201, 201, 201);
+    text-align: center;
+    margin: 20px;
+}
+
+.contact-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.fa-brands, .fa-solid {
+    margin-right: 1ch;
+}
